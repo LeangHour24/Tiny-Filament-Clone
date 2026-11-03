@@ -1,0 +1,392 @@
+{
+  "source_project": "UHS-AMS-1-old",
+  "source_commit": "52f28ee89b20e328dbc8bf44139da3da70a39eb8",
+  "note": "SHA-256 values describe the working files copied into this snapshot.",
+  "files": [
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/.gitignore",
+      "sha256": "5916fdc5e4e0f846b9f7ee12db1817310d496b4d4a32082b52cbff4143912a1a",
+      "bytes": 83
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/CHANGELOG.md",
+      "sha256": "f2f289c7081c40bf2b25d99884a024477ef11852268e9e6f3d5278fffc24432f",
+      "bytes": 2612
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/README.md",
+      "sha256": "584eebc949be0aa5ce7eb2c8e9691980979e6e0e2fd92f88ce7179201daf7c6b",
+      "bytes": 2249
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/composer.json",
+      "sha256": "b9dfc156560c98e41414c89a1fa1c27014b300f682e84aae10e764bbf58852cd",
+      "bytes": 1281
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/config/filament-custom-forms.php",
+      "sha256": "c48a1b45c3e4815f9c8352ebf0490f934da80a4dd6189503e7f4a2248dfaac46",
+      "bytes": 1492
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/database/factories/CustomFormEntryFactory.php",
+      "sha256": "28f9f1ebe56d942c6687c77255635d670d38c75f26c1925f7143b3a772424f84",
+      "bytes": 384
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/database/factories/CustomFormFactory.php",
+      "sha256": "c56d195f68fab51db3db10d560b92d8dca5819289b2515e1a54130820e6ada85",
+      "bytes": 570
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/database/factories/CustomFormFieldFactory.php",
+      "sha256": "171c6d46e425844bbe1ec222aafb9f4ee7a99ff0c25c138a7ed50ca069329f1b",
+      "bytes": 566
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/database/migrations/create_custom_form_entries_table.php.stub",
+      "sha256": "2066c8cab7520c910a84d44a71e6c64030449f32cc2eee3c67d2d74392e70c80",
+      "bytes": 1114
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/database/migrations/create_custom_form_fields_table.php.stub",
+      "sha256": "99f71228f6a9265fe49f22df86c8d08969f4f492f32d6112a764fde6b4791853",
+      "bytes": 1135
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/database/migrations/create_custom_forms_table.php.stub",
+      "sha256": "121696ddd964a26fe0d3a9f4762a307162a2bdd3439cc3e59b9007b95cb55079",
+      "bytes": 946
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/release.sh",
+      "sha256": "8e50a544d78814a542d95efff89bccd3f1ddfc3d2a14c326584294633b781ba3",
+      "bytes": 498
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/resources/lang/en/fcf.php",
+      "sha256": "ef43b1c0b069ad4664665f50479d86c09bf5dad99ddbd1501bfa3a6f7bb3e9f7",
+      "bytes": 37776
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/resources/lang/km/fcf.php",
+      "sha256": "b89bf852314717aeac42c5a321f2b4f31514b8e0bb3445c6cfb0f64796d647ce",
+      "bytes": 61942
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/resources/views/.gitkeep",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/CustomFormPlugin.php",
+      "sha256": "3f2784f00ec34fd8d41f9e9653ead5cd46c515ef0d5d63cf3fa1ee934808b9d8",
+      "bytes": 6328
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/CustomFormServiceProvider.php",
+      "sha256": "2209ee4e7deb6eac1bb0327b90f9fca573d30fe60487c035c84afe27a94b9258",
+      "bytes": 628
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Exports/CustomFormEntryExport.php",
+      "sha256": "f8dc26f7e5167c0f9201c2bff341730ced308f656058a331aec4e80283cfb491",
+      "bytes": 1765
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Exports/CustomFormEntrySqlExport.php",
+      "sha256": "db443a933fe79c92c3034955a0b848cc63971141d33571d0d75cb10faff90e98",
+      "bytes": 2309
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomFormEntries/CustomFormEntryResource.php",
+      "sha256": "ada108bdeb4e101a4db188f836fe199fce66eb0571d57bef39a5366c123ce9bb",
+      "bytes": 16238
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomFormEntries/Pages/CreateCustomFormEntry.php",
+      "sha256": "82bd12886e36b6655a6d512a6a2bc050bd9d8d5d86bdd6c0211d6a1289a176fa",
+      "bytes": 12998
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomFormEntries/Pages/EditCustomFormEntry.php",
+      "sha256": "535ebc01d678fadc8a9145bc5d3f60b19a56fe0648de367f6d6ad8b8ddbb1830",
+      "bytes": 6991
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomFormEntries/Pages/ListCustomFormEntries.php",
+      "sha256": "896f9144c4ee28a88fed0e0168b7e9a31bf44d7301f45b96a6a8a95424c75a07",
+      "bytes": 16886
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomFormEntries/Schemas/CustomFormEntryForm.php",
+      "sha256": "1ce6e46291f0c410afec42f35662295875e714b88620d6e0b2d17e8e4e220ade",
+      "bytes": 108883
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomFormEntries/Tables/CustomFormEntriesTable.php",
+      "sha256": "52b371e825c863b7c94369a1ed2e84e15b5c621aa2f7463ac747885861a9b599",
+      "bytes": 50883
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomForms/CustomFormResource.php",
+      "sha256": "b0234b031273638d52dcccd351db6c87ef4fbbe29d636378e5eb8d4b591b34fc",
+      "bytes": 3165
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomForms/Pages/CreateCustomForm.php",
+      "sha256": "b1cafa27949b6ac0f0f0c9f1a82bc18f215dcd8f570b87f4809aad607c12c538",
+      "bytes": 334
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomForms/Pages/EditCustomForm.php",
+      "sha256": "168483ab662a606915fec267e1f62591e5e8da829a1db35694f158c5c89617ad",
+      "bytes": 687
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomForms/Pages/ListCustomForms.php",
+      "sha256": "aa5c3ee36d76c916c2d9431a3fa14823926ad66701d41a1b07fe5187480ee85e",
+      "bytes": 643
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomForms/RelationManagers/FieldsRelationManager.php",
+      "sha256": "1451da69f1efd818c8aaadab1cefb5c256d6d260dcf562085addd06a5f4c87e5",
+      "bytes": 72772
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomForms/Schemas/CustomFormForm.php",
+      "sha256": "6dd5d52d66d37cf57ab8215daca7d845916a92203d718d66cc6d6398ad1e6214",
+      "bytes": 22852
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Filament/Resources/CustomForms/Tables/CustomFormsTable.php",
+      "sha256": "f8c5eb7f898c3e433767cb22011957f277fe1826472d1c411ced262fddf6fe96",
+      "bytes": 5988
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Models/CustomForm.php",
+      "sha256": "abe13b4ed6c01af536239f0645e4eadef87ee7dad2f0f2fb34818b51b71f8492",
+      "bytes": 3144
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Models/CustomFormEntry.php",
+      "sha256": "d82d9526ecac2fda746e28dd557043f7d5567322be5ecfaf6a915e71b8b1dc5b",
+      "bytes": 1307
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/src/Models/CustomFormField.php",
+      "sha256": "ccab9fd3a40f3b88605537e57debb9e24d4f817902efee0b664027e58f9e3de2",
+      "bytes": 1032
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/tests/Feature/CustomFormEntryResourceTest.php",
+      "sha256": "46008a66a5559125eedb00cbb8028c919dc81c9edd7782bd0c8892fe0cec6bfc",
+      "bytes": 1967
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/tests/Feature/CustomFormResourceTest.php",
+      "sha256": "fee0472c25fda7b7c69893d311a2a4abb15177ef1549067724f2507313bdc39b",
+      "bytes": 2585
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/tests/Models/User.php",
+      "sha256": "46435b345ad9a8a595d23c5746b8d8770243c31dbfec677358f6e578da77378c",
+      "bytes": 427
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/tests/TestCase.php",
+      "sha256": "84b4b0f83fd3731054b49e1c1a006f93b64e4a8821124bc0071728127d44016c",
+      "bytes": 2983
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/tests/TestPanelProvider.php",
+      "sha256": "2c252f172e71adb65efd62dc78b8085cbe19ed29fbb0c5ed543699fb130ce24f",
+      "bytes": 1361
+    },
+    {
+      "path": "packages/chanthoeun/filament-custom-forms/tests/TestServiceProvider.php",
+      "sha256": "e40a9d1469647524ec3a354c3b4762630e6c0f0bc0bbd581beae1b9f1fb0172e",
+      "bytes": 1472
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/.github/workflows/ci-cd.yml",
+      "sha256": "51b23f4ac19d2fb68030d307435b3ae0be5ef5ca1f17b109a28252f2a1d57159",
+      "bytes": 2665
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/.gitignore",
+      "sha256": "c18c6457226c7cdfccd85c23e3aea3687262a2cebeea4c8e79fc93a1e1926c20",
+      "bytes": 267
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/README.md",
+      "sha256": "8e0d6ea74af6261103306544cf0458d0ef7066045cf93d5d18b069d190dd8ae1",
+      "bytes": 14615
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/composer.json",
+      "sha256": "2513c531b7dff04180e9e042e76bb256921fed3a56ca495a2fc92cb6a322ec01",
+      "bytes": 1473
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/composer.lock",
+      "sha256": "692f828d6083f2837b4dfb96e53b3668d3cd4ed7ddbd13f1ab6cd0abf3d9fc8d",
+      "bytes": 441731
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/config/filament-document-builder.php",
+      "sha256": "f78308f1ae647e8a6fbbd91d0480eb49d86d60531e55c668ece2dc3e42124658",
+      "bytes": 8571
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/database/migrations/create_document_templates_table.php.stub",
+      "sha256": "6f830cd760af0e4a499c35fa0eac40f27058d9db1cd9893fe8b406672af0dc11",
+      "bytes": 896
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/phpstan.neon.dist",
+      "sha256": "4bd85de8099078bcbc16d178ec75ac4f5c3c51d7612ef406650c0b474a4f1358",
+      "bytes": 144
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/fonts/Battambang-Bold.ttf",
+      "sha256": "4cd10f7a56a7d9d1fb4184b2219821f8ad6f425be290243ef73c4ef3a80c86ff",
+      "bytes": 111988
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/fonts/Battambang-Regular.ttf",
+      "sha256": "1fd3eb9960911396cb7955f2c68afe5ee21c2c14f8097e945d05b768ed4de942",
+      "bytes": 116040
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/fonts/KhmerOSbattambang.ttf",
+      "sha256": "4d86384ad187568003ccb7d53ff81478c9ed5a55fc630a6a03e27bd12acc971d",
+      "bytes": 207552
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/fonts/KhmerOSmuollight.ttf",
+      "sha256": "27eb88f844f7829c3a8b4b8b03ac3087e8e31833c747a22da084bde859864f50",
+      "bytes": 232832
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/fonts/KhmerOSsiemreap.ttf",
+      "sha256": "07f9ee9f596b7e297221cb134b20ec4e9f1e961a1a0f573ce418f0039cf5fdc6",
+      "bytes": 132220
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/fonts/MoulLight-Regular.ttf",
+      "sha256": "c0445e86767edf1bfb08a6fe65bd38f350b588c641af7e2e88a59d72ccecd9c3",
+      "bytes": 166200
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/fonts/Siemreap-Regular.ttf",
+      "sha256": "464760c6d06fc3f153f2e005eb1b0d33d5bd67e75f2d1c633f584c24ac006588",
+      "bytes": 285320
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/js/custom-shapes.js",
+      "sha256": "b2307890c2e529a7dcec5492b07b64f6a8cd9d4763873f86f31b1b74f2553506",
+      "bytes": 10906
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/lang/en/document-builder.php",
+      "sha256": "7aab8db3f6b78e8b6e1eb8b38a5ceadb8fd7e207634b06ea9fc2de4442c08160",
+      "bytes": 1501
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/lang/km/document-builder.php",
+      "sha256": "acaea0efb75db00126c2e27e344b26a7723321c36a8bca985df498e9f9fe0810",
+      "bytes": 2570
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/resources/views/document.blade.php",
+      "sha256": "1efeee15eca599a7a5b63acbb4fd6a67fb71146c01c91e438b5d60566756fbda",
+      "bytes": 1798
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Actions/DownloadAllPdfAction.php",
+      "sha256": "c0378c9b8ae464ff64a00b62d6c60765fecfddcbdc5d8627c60b6ba41bb02942",
+      "bytes": 1730
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Commands/PublishResourceCommand.php",
+      "sha256": "a890cd7fc04e1813c4d0604a1ec18d6e5a2c0d8b2ddf2d1ead6e0471762b232a",
+      "bytes": 3100
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/DocumentBuilderPlugin.php",
+      "sha256": "3d7ee90255fc34308c925d94b9e5f2c6a93d04b0fc48f8e75d5c27467c354a3b",
+      "bytes": 1926
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/FilamentDocumentBuilderServiceProvider.php",
+      "sha256": "e225fe79f3b403782ed061a042f9b8aafbd180497cc71d00b84419761b436704",
+      "bytes": 1743
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Models/DocumentTemplate.php",
+      "sha256": "6286cc111630fe09699f3bc3bdf9da4e1cac1d93d918290045108e9a8f82ceb1",
+      "bytes": 1946
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Resources/DocumentTemplateResource.php",
+      "sha256": "85c88d33df2e73750751b6c7a8008b5f14d3f48994845071a3ea9e6c1547559b",
+      "bytes": 1905
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Resources/DocumentTemplateResource/Pages/CreateDocumentTemplate.php",
+      "sha256": "efd92f71bd2fbadc9a7cca5632d8f61bbf51e0e869f45f76046e0764685f10d5",
+      "bytes": 1925
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Resources/DocumentTemplateResource/Pages/EditDocumentTemplate.php",
+      "sha256": "379ae5b3f41359cdcf3011f3dc032920c42ff4b7ea11c5dfa80e81119e009d5f",
+      "bytes": 4331
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Resources/DocumentTemplateResource/Pages/ListDocumentTemplates.php",
+      "sha256": "8a1b93b410f27b75789f2ab60b1379f204a3f4a4b14f1c892e211304c7c3fa66",
+      "bytes": 492
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Resources/DocumentTemplateResource/Schemas/DocumentTemplateForm.php",
+      "sha256": "4756358c8ec128c7dba0988e8f625fb1f6ec7435cbc34635ba468157301ddb13",
+      "bytes": 25143
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Resources/DocumentTemplateResource/Tables/DocumentTemplateTable.php",
+      "sha256": "013bc5a597ffeafc7aafcfa7980d13353733f8ce4ea20f45971fa6c0a0b47ff4",
+      "bytes": 5930
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Services/DocumentRenderer.php",
+      "sha256": "edb99020e4bf7cad833a8567d1257699f780e4fbdb81a2f4326ae0b26c4d26bc",
+      "bytes": 21501
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Support/LayoutTemplates.php",
+      "sha256": "ddde507f9b75052da202d0c5f264d2340379f07d0b363193f6beb870bc030e97",
+      "bytes": 11253
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Support/ResolvesTemplate.php",
+      "sha256": "dfb96ba0ef730a8b82f750295b37ee4adcdc8e8f989823928528c21a18b8ee8f",
+      "bytes": 1942
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/src/Tables/Actions/DownloadPdfAction.php",
+      "sha256": "b9bc5032d66cb12b1952990d3096a9b7535eeb7e999788f4a67bcb4f3500e1c8",
+      "bytes": 1479
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/tests/TestCase.php",
+      "sha256": "3d407d6d567edeac510c0a4b3fd2d25d67cac78461ee8b02ad01cd0ed728daba",
+      "bytes": 880
+    },
+    {
+      "path": "packages/chanthoeun/filament-document-builder/tests/Unit/DocumentRendererTest.php",
+      "sha256": "e59bec8a47f39f5b049e132b82fdd054aa4c63f3b228fe91f0134115e71a0fb7",
+      "bytes": 20788
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+    "name": "chanthoeun/filament-custom-forms",
+    "description": "A FilamentPHP plugin to manage and submit custom forms.",
+    "keywords": [
+        "laravel",
+        "filament",
+        "plugin",
+        "custom-forms"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Chanthoeun",
+            "email": "info@chanthoeun.com"
+        }
+    ],
+    "homepage": "https://github.com/chanthoeun/filament-custom-forms",
+    "require": {
+        "php": "^8.2",
+        "filament/filament": "^4.0|^5.0",
+        "filament/schemas": "^4.0|^5.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^9.0|^10.0",
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chanthoeun\\FilamentCustomForms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chanthoeun\\FilamentCustomForms\\Tests\\": "tests/",
+            "Chanthoeun\\FilamentCustomForms\\Database\\Factories\\": "database/factories/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chanthoeun\\FilamentCustomForms\\CustomFormServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
